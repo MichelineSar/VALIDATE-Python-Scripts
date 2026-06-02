@@ -14,7 +14,7 @@ import seaborn as sns
 ###########################
 
 # Read only the specified columns from the CSV file
-df = pd.read_csv(r'example_data.csv')
+df = pd.read_csv(r'\example_data.csv', sep=';', usecols=['P_Code', 'Diary_Time', 'BEAM_Time'])
 
 # Convert to datetime (day first because your format is dd.mm.yyyy)
 df["Diary_Time"] = pd.to_datetime(df["Diary_Time"], format="%d.%m.%Y %H:%M", errors="coerce")
