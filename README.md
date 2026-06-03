@@ -33,3 +33,10 @@ Full study data are available from the corresponding author upon reasonable requ
 ## License
 
 This project is licensed under the MIT License.
+
+## Citation
+
+This repository is archived on Zenodo:
+
+DOI: https://doi.org/10.5281/zenodo.20521457
+
